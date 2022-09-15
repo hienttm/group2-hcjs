@@ -65,7 +65,7 @@ li{
     width: 150px;
     padding: 16px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: larger;
 }
 .navigation li a:hover {
     color: #222222;
