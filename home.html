@@ -5,6 +5,9 @@
     <title>Home page</title>
     <link rel="stylesheet" href="css/layout.css"/>
     <link rel="stylesheet" href="css/home.css"/>
+    <link rel="stylesheet" href="../T2007E_HCJS/libs/owlcarousel2-2.3.4/assets/owl.carousel.css"/>
+    <link rel="stylesheet" href="../T2007E_HCJS/libs/owlcarousel2-2.3.4/assets/owl.theme.green.css"/>
+    <link rel="stylesheet" href="../T2007E_HCJS/libs/owlcarousel2-2.3.4/assets/owl.theme.default.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +49,98 @@
 
     <section class="main section">
         <div class="container">
-            main section
+            <div class="content content-1">
+                <div class="content-1-left">
+                    <img src="img/content-1-1.png" alt="chocolate cake" />
+                </div>
+                <div class="content content-1-right">
+                    <h4>Making A Cake</h4>
+                    <h2>To Combat Boredom</h2>
+                    <p>We know that you all are having some hard times because of lockdowns and self-quarantine.
+                        Further, it is quite sure that coronavirus and all precautions against the spread of
+                        the virus make us nervous. So just because of this, we all endeavor to find ways to leave
+                        these days behind with less loss. Therefore, these extraordinary recipes offer a delightful and
+                        delicious way to enjoy ourselves at home.
+                    </p>
+                    <img src="img/content-1-3.png" alt="chocolate cake" />
+                    <img src="img/content-1-4.png" alt="chocolate cake" />
+                </div>
+                <div class="content content-1-center">
+                    <img src="img/content-1-2.png" alt="chocolate cake"/>
+                </div>
+            </div>
+
+            <div class="content content-2">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="content-2-left">
+                                <p>Top 3 Hottest Topic</p><br>
+                                <span id="trend">Trending Recipe</span><br><br>
+                                <p>One of the great aspects of social media is spotting trends faster than ever before.
+                                    If you like to be ahead of the curve when it comes to cake, check out some of the sweetest
+                                    trends we’ve spotted.
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <section class="banner section">
+                                <div class="container">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                        <div class="item"><a href="#"><h4><img src="img/content-2-1.png"/></h4></a></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+            <div class="content content-3">
+                <table>
+                    <tr>
+                        <td class="content-3-top" colspan="3">
+                            <div>
+                                <span>Recently Update</span><br><br>
+                                <div>Cake enthusiast? Checked our blog recently? Go on now.</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                                <img src="img/content-3-1.png" />
+                                <p>CROISSANT</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">
+                                <img src="img/content-3-2.png" />
+                                <p>DONUT</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">
+                                <img src="img/content-3-3.png" />
+                                <p>SPONGE CAKE</p>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </section>
 
@@ -54,7 +148,7 @@
         <div class="container">
             <div class="footer-1">
                 <h2>The Five-Season Cake</h2>
-                <p>"Every person is unique, why shouldn’t their cake be?"</p>
+                <p>"Every person is unique,<br>why shouldn’t their cake be?"</p>
             </div>
             <div class="footer-2">
                 <table>
@@ -79,7 +173,7 @@
                 </table>
             </div>
             <div class="footer-4">
-                <h4>Sign up for newsletter</h4><br>
+                <p>Sign up for our newsletter</p><br>
                 <form action="#">
                     <input type="email" id="email" placeholder="Email address" /><br><br>
                     <input type="submit" id="submit" value="Submit" />
@@ -88,5 +182,22 @@
         </div>
     </footer>
 
+    <script type="text/javascript" src="../T2007E_HCJS/libs/jquery/jquery.3.6.1.js"></script>
+    <script type="text/javascript" src="../T2007E_HCJS/libs/owlcarousel2-2.3.4/owl.carousel.js"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                }
+            }
+        })
+    </script>
 </body>
 </html>
