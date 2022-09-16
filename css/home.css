@@ -5,7 +5,7 @@ li {
     width: 80%;
     margin: 10px auto;
 }
-.main .container .content {
+.main .content {
     margin-bottom: 100px;
 }
 
@@ -93,14 +93,20 @@ li {
 .content-1-right img {
     width: 150px;
     height: 150px;
-    margin: 50px 0px 0px 30px;
+    margin-left: 30px;
+    margin-top: 25px;
 }
 .content-1-right p{
     margin-left: 30px;
 }
-.content-1-right h2 {
-    margin: 20px 0px 20px 30px;
+.content-1-right h4{
+    font-size: 28px;
     color: #2B4F60;
+}
+.content-1-right h2 {
+    margin: 0px 0px 20px 30px;
+    color: #2B4F60;
+    font-size: 38px;
 }
 .content-1-center {
     position: absolute;
@@ -115,6 +121,9 @@ li {
     width: 35%;
     padding-right: 50px;
 }
+.content-2-1 h4 {
+    font-size: 20px;
+}
 .content-2-2 {
     width: 30%;
 }
@@ -128,13 +137,13 @@ li {
      width: 15%;
  }
 .top3 {
-    font-size: 30px;
+    font-size: 38px;
     color: #2B4F60;
 }
 #trend {
     border-top: 1px solid #ffd4ca;
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
     color: #2B4F60;
 }
@@ -147,7 +156,7 @@ li {
     width: 100%;
 }
 .content-3-1 span {
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
     color: #2B4F60;
     border-bottom: 1px solid #ffd4ca;
@@ -163,6 +172,7 @@ li {
 .content-3-2 span {
     text-align: justify;
 }
+.content-4-1 {}
 
 
 .footer {
