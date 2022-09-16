@@ -218,8 +218,10 @@ li {
 #email {
     width: 100%;
     border-style: none none solid none;
-    background-color: #ffd4ca;
+    background-color: #FFA996;
     padding: 5px;
+    font-family: 'Overlock', sans-serif;
+    font-size: 16px;
 }
 #submit {
     padding: 5px 30px;
@@ -227,4 +229,6 @@ li {
     background-color: #2B4F60;
     border: #2B4F60;
     color: #fafafa;
+    font-family: 'Overlock', sans-serif;
+    font-size: 16px;
 }
