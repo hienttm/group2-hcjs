@@ -5,8 +5,8 @@ li {
     width: 80%;
     margin: 10px auto;
 }
-.main .container {
-    margin: 100px auto;
+.main .container .content {
+    margin-bottom: 100px;
 }
 
 .header-left {
@@ -35,7 +35,7 @@ li {
 }
 .header-center {
     font-family: 'Caveat', cursive;
-    color: #f59372;
+    color: #FFA996;
     text-shadow: 10px -5px #fde6e6;
     text-align: center;
     font-size: 30px;
@@ -79,6 +79,10 @@ li {
     width: 33.33%;
     height: 515px;
 }
+.content-1-left img {
+    height: 515px;
+    width: fit-content;
+}
 .content-1-right {
     float: left;
     width: 66.67%;
@@ -107,12 +111,25 @@ li {
     height: 420px;
     margin: 45px 230px;
 }
-.content-2-left {
-    width: 350px;
-    padding-left: 80px;
+.content-2-1 {
+    width: 35%;
+    padding-right: 50px;
 }
-section .section {
-    width: 800px;
+.content-2-2 {
+    width: 30%;
+}
+.content-2-2 img {
+    z-index: -1;
+}
+.content-2-3 {
+    width: 20%;
+}
+.content-2-4 {
+     width: 15%;
+ }
+.top3 {
+    font-size: 30px;
+    color: #2B4F60;
 }
 #trend {
     border-top: 1px solid #ffd4ca;
@@ -121,25 +138,36 @@ section .section {
     font-weight: bold;
     color: #2B4F60;
 }
-.content-3 table td{
+.content-3-1 {
     padding: 20px 10px;
+    width: 100%;
 }
-.content-3-top {
+.content-3-1 {
     text-align: center;
+    width: 100%;
 }
-.content-3-top span{
+.content-3-1 span {
     font-size: 30px;
     font-weight: bold;
     color: #2B4F60;
     border-bottom: 1px solid #ffd4ca;
     padding: 10px 50px;
 }
-
+.content-3-2 .item {
+    padding: 10px;
+}
+.content-3-2 h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.content-3-2 span {
+    text-align: justify;
+}
 
 
 .footer {
     padding: 50px 0px 100px 0px;
-    background-color: #ffd4ca;
+    background-color: #FFA996;
 }
 .footer::after {
     content: "";
