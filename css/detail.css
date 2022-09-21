@@ -1,0 +1,167 @@
+.recipe-detail{
+    margin-top:60px;
+}
+.recipe-detail .col{
+    padding-left:30px;
+}
+.sb .col-3{
+    padding-left:30px;
+}
+/*RECIPE PATH*/
+.recipe-path{
+    margin-bottom:60px;
+}
+.recipe-path li{
+    margin-right:20px;
+}
+.recipe-path li:last-child{
+    margin-right:0px;
+}
+
+/*TITLE*/
+.recipe-tt-left{
+    width:87.5%;
+}
+.recipe-tt-right{
+    width:12.5%;
+}
+.recipe-tt-left p{
+    margin-bottom:10px;
+    color:#999;
+}
+.recipe-tt-right span{
+    color:#333;
+    padding-left:20px;
+}
+
+/*FOUR BUTTON*/
+.recipe-btn{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.four-btn button{
+    width:100%;
+}
+.pin-btn{
+    margin-left:30px;
+    margin-right:30px;
+}
+.insta-btn{
+    margin-left:30px;
+}
+
+/*INTRO RECIPE*/
+.recipe-intro p{
+    margin-bottom:16px;
+}
+.recipe-intro img{
+    margin-top:24px;
+    margin-bottom:40px;
+}
+
+
+
+/*Ingredient*/
+.ingredients{
+    padding-top:44px;
+    margin-bottom:60px;
+}
+.ing-detail{
+    margin-right:30px;
+}
+.ing-detail{
+    width:37.5%;
+}
+.ing-img{
+    width:62.5%;
+}
+.ing-n1{
+    margin-top:30px;
+}
+.ing-n2{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.ing-detail p.med{
+    margin-bottom:20px;
+}
+.ing-detail p{
+    margin-bottom:16px;
+}
+
+
+/*INSTRUCTION*/
+.instruction h4{
+    margin-bottom:40px;
+}
+.ins-img{
+    margin-top:24px;
+    margin-bottom:40px;
+}
+.ins-n2{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.step-detail li{
+    margin-bottom:16px;
+}
+
+
+/*NUTRITIONAL INFORMATION*/
+.nutri-n1{
+    margin-right:30px;
+}
+.nutri-n2{
+    margin-right:30px;
+}
+.nutri-n3{
+    margin-right:30px;
+}
+.nutrition h4{
+    margin-top:44px;
+    margin-bottom:30px;
+}
+.nutri-info{
+    margin-top:30px;
+    margin-bottom:44px;
+}
+.nutri-info li{
+    margin-bottom:16px;
+}
+
+/*QUESTION*/
+.Q1{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.Q1 p.med{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.Q1 p{
+    margin-bottom:16px;
+}
+.Q2{
+    margin-top:4px;
+    margin-bottom:30px;
+}
+
+/*SUGGEST RECIPE*/
+
+.suggest h4{
+    margin-top:60px;
+    margin-bottom:30px;
+}
+.sugg-btn{
+    position:relative;
+    padding-top: 100px;
+    padding-bottom:120px;
+}
+.sugg-btn button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+

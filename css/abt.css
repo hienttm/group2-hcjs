@@ -1,0 +1,122 @@
+
+
+/*banner*/
+.banner{
+    background-color:#FFA99680;
+    width:100%;
+}
+.banner h1{
+    text-align:center;
+    padding-top:154px;
+    margin-bottom:10px;
+    color:#fff;
+}
+.banner h5{
+    text-align:center;
+    padding-bottom:154px;
+    color:#fff;
+}
+
+/*dear*/
+.dear{
+    margin-top:140px;
+    margin-bottom:140px;
+}
+.dear-info span{
+    margin-right:20px;
+}
+.dear-glad h3{
+    margin-bottom:30px;
+}
+.dear-info .from{
+    margin-bottom:10px
+}
+.dear-ct-n1{
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+
+/*who we are*/
+.who-img{
+    position: relative;
+}
+.who-content{
+    position:absolute;
+    left:650px;
+    background-color:#fff;
+    padding:70px 130px 70px 130px;
+    margin-top:100px;
+}
+.who-content span{
+    margin-bottom:5px;
+}
+.who-content h3{
+    margin-bottom:20px;
+}
+
+/*what we do*/
+.what .col-3 h3{
+    margin-bottom:20px;
+}
+.what .col-3 h6{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.what-up{
+    margin-top:140px;
+    margin-left:30px;
+}
+.what-down{
+    margin-top: 260px;
+}
+.down-cart{
+    margin-left:30px;
+}
+
+/*gallery*/
+.gallery{
+    margin-top:140px;
+    margin-bottom:140px;
+}
+.gallery p{
+    margin-top:20px;
+    margin-bottom:40px;
+    text-align:center;
+}
+.gallery h3{
+    text-align:center;
+}
+.gallery-left{
+    margin-right:15px;
+}
+.gallery-center{
+    margin-left:15px;
+    margin-right:15px;
+}
+.gallery-top{
+    margin-bottom:30px;
+}
+.gallery-right{
+    margin-left:15px;
+}
+
+/*contact*/
+.input-form{
+    margin-right:30px;
+}
+.input-form input{
+    margin-bottom:40px;
+}
+.contact-inner{
+    padding: 120px 130px 120px 130px;
+    background-color:#FFA99630;
+    margin-top:140px;
+    margin-bottom:140px;
+}
+.input-content h4{
+    margin-top:5px;
+    margin-bottom:20px;
+}
+.input-content p{
+    margin-bottom:136px;
+}
