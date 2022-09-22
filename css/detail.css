@@ -1,11 +1,15 @@
 .recipe-detail{
     margin-top:60px;
 }
-.recipe-detail .col{
-    padding-left:30px;
+.recipe-content .col-8{
+    margin-right:15px;
+}
+.recipe-content .col{
+    margin-left:15px;
+    margin-right:15px;
 }
 .sb .col-3{
-    padding-left:30px;
+    margin-left:15px;
 }
 /*RECIPE PATH*/
 .recipe-path{
@@ -58,8 +62,6 @@
     margin-top:24px;
     margin-bottom:40px;
 }
-
-
 
 /*Ingredient*/
 .ingredients{
@@ -164,4 +166,5 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 
