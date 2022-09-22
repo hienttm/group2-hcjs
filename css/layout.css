@@ -316,3 +316,24 @@ label {
     padding-bottom:154px;
     color:#fff;
 }
+
+/*contact*/
+.input-form{
+    margin-right:30px;
+}
+.input-form input{
+    margin-bottom:40px;
+}
+.contact-inner{
+    padding: 120px 130px 120px 130px;
+    background-color:#FFA99630;
+    margin-top:140px;
+    margin-bottom:140px;
+}
+.input-content h4{
+    margin-top:5px;
+    margin-bottom:20px;
+}
+.input-content p{
+    margin-bottom:136px;
+}
