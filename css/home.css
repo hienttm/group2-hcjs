@@ -13,21 +13,27 @@
 .w-6{
     width:60%;
 }
-.show-img{
-    margin-left:15px;
+.w-6 h3{
+    margin-top:50px;
+    margin-left:30px;
+}
+.show-img1{
     margin-right:15px;
+
+}
+.show-img2{
+    margin-left:15px;
 }
 .show-content{
-    margin-left:30px;
-    margin-top:69px;
+    margin-top:5px;
 }
 .show-content h2{
-    margin-top:5px;
-    margin-bottom:40px;
+    margin-bottom:20px;
 }
 .show-content p {
     margin-bottom:70px;
 }
+
 /*TOP TREND*/
 .top-trend img{
     height:100%;
@@ -40,9 +46,6 @@
     margin-top:120px;
     margin-bottom:120px;
 }
-.trend1 {
-    margin-left: 15px;
-}
 .trend-content .line{
     margin-top:10px;
     margin-bottom:10px;
@@ -51,31 +54,25 @@
 .trend-content h3{
     margin-bottom:30px;
 }
-/*RECENTLY UPDATE*/
-.recently-update{
-    margin-bottom:120px;
+.trend-img1{
+    margin-left:15px;
 }
+/*RECENTLY UPDATE*/
 .title{
     margin-bottom:40px;
 }
-.update-content{
+.title .col-6{
     text-align:center;
 }
-.update-content .line{
-    margin:10px auto 20px auto;
+.title .line{
     width:530px;
+    margin: 10px auto 20px auto;
 }
-.update-list .cen{
-    margin-left:15px;
-    margin-right:15px;
-}
-.update-list .left{
-    margin-right:15px;
-}
-.update-list .right{
-    margin-left:15px;
-}
+/*SPECIAL CAKE*/
+
+
 /*FOR THIS SEASON*/
 .for-season{
+    margin-top:120px;
     margin-bottom:120px;
-}More
+}
