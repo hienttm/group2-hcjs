@@ -1,3 +1,4 @@
+
 /*Showcase*/
 .showcase{
     background-image: url("../img/showcase.jpg");
@@ -40,7 +41,7 @@
 }
 .trend-content{
     margin-right:15px;
-    margin-top:120px;
+    margin-top:140px;
 }
 .top-trend{
     margin-top:120px;
@@ -69,10 +70,61 @@
     margin: 10px auto 20px auto;
 }
 /*SPECIAL CAKE*/
-
+.special-cake{
+    background-image: url("../img/special.jpg");
+    object-fit:scale-down;
+    margin-top:120px;
+}
 
 /*FOR THIS SEASON*/
 .for-season{
     margin-top:120px;
     margin-bottom:120px;
+}
+.season-cart{
+    margin-bottom:60px;
+}
+
+/*SIGN UP FOR EMAIL*/
+.signup{
+    margin-bottom:120px;
+}
+.signup .col-5{
+    background-color:#FFA99650;
+}
+.signup .col-5 button{
+    width:100%
+}
+.signup .col-5{
+    padding-left:60px;
+    padding-right:60px;
+    padding-top:160px;
+}
+.signup .col-5 p{
+    margin-top:20px;
+    margin-bottom:40px;
+}
+/*FOLLOW US*/
+.follow{
+    background-color:#FFA99630;
+    padding-top:90px;
+    padding-bottom:90px;
+    margin-bottom:120px;
+}
+.follow2{
+    margin-bottom:30px;
+}
+.follow-cen{
+    margin-left:15px;
+    margin-right:15px;
+}
+.follow-right{
+    margin-left:15px;
+}
+.follow-left{
+    margin-right:15px;
+}
+.follow-left .line{
+    margin-bottom:30px;
+    margin-top:5px;
 }

@@ -5,6 +5,17 @@
 .nav-blog li{
     margin-bottom:30px;
 }
+.nav-blog li a:hover{
+    margin-bottom:30px;
+    color:#333;
+}
+.nav-blog li a{
+    color:#ccc;
+}
+li.first a{
+    color:#333;
+}
+
 
 /*BLOG CART*/
 .blog-cart{

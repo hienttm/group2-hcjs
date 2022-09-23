@@ -156,6 +156,7 @@ label {
 }
 .brief img{
     margin-bottom:20px;
+    width:393px;
 }
 .explore{
     margin-left:30px;
@@ -302,7 +303,7 @@ label {
 }
 /*banner*/
 .banner{
-    background-color:#FFA99680;
+    background-color:#FFA99685;
     width:100%;
 }
 .banner h1{
