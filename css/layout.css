@@ -16,7 +16,7 @@ img{
 }
 /*Text Style*/
 h1{
-    font-size:96px;
+    font-size:82px;
     font-weight:900;
 }
 h2{
@@ -52,7 +52,7 @@ h6{
     width:100%;
 }
 .container{
-    width:1530px;
+    width:1200px;
     margin: 0px auto;
 }
 .pri{
