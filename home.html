@@ -12,6 +12,9 @@
     <!--css-->
     <link rel="stylesheet" href="css/layout.css"/>
     <link rel="stylesheet" href="css/home.css"/>
+    <!--OwlCarousel-->
+    <link rel="stylesheet" href="library/owlcarousel/dist/assets/owl.theme.default.css"/>
+    <link rel="stylesheet" href="library/owlcarousel/dist/assets/owl.carousel.css"/>
 </head>
 <body>
     <!--TOP_PAGE-->
@@ -93,14 +96,29 @@
                 <p>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat quisque
                     vitae ornare diam netus tellus.</p>
             </div>
-            <div class="col-4 trend-img1">
+            <div class="trend-first col-4 trend-img1 ">
                 <a href="#"><img src="img/trend1.jpg"/></a>
+                <div class="trend-title row">
+                    <div>
+                        <h1>01/</h1>
+                    </div>
+                    <div>
+                        <span class="med">Dessert</span>
+                        <h5>CHOCOLATE CAKE</h5>
+                    </div>
+                </div>
             </div>
-            <div class="col-3 trend-img2">
+            <div class="col-3 trend-img1">
                 <a href="#"><img src="img/trend2.jpg"/></a>
+                <div class="trend-title">
+                    <h1>02/</h1>
+                </div>
             </div>
-            <div class="col-2 trend-img3">
+            <div class="col-2 trend-img1">
                 <a href="#"><img src="img/trend3.jpg"/></a>
+                <div class="trend-title">
+                    <h1>03/</h1>
+                </div>
             </div>
         </div>
         <!--RECENTLY UPDATE-->
@@ -115,7 +133,7 @@
                 </div>
                 <div class="col-3"></div>
             </div>
-            <div class="row update-cart">
+            <div class="row update-cart owl-carousel owl-theme">
                 <div class="cart-cake cart-lg-7 col-4 cart-left">
                     <img src="img/update1.jpg"/>
                     <p class="sma">Dessert&Vegan</p>
@@ -142,17 +160,20 @@
         <!--SPECIAL CAKE-->
         <div class="special-cake">
             <div class="container row">
-                <div class="col-5">
+                <div class="col-7">
                     <a href="#"><img src="img/special-cake.jpg"/></a>
                 </div>
-                <div class="col-2"></div>
                 <div class="col-5">
-                    <span class="med pri">SPECIAL CAKE</span>
-                    <h2>Happy Cream Day!</h2>
-                    <p>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
-                        quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut
-                        sed est sit in tortor. Blandit consequat quisque vitae ornare diam netus tellus.</p>
-                    <buttom type="submit" class="btn btn-lg btn-pr">Explore now</buttom>
+                    <div class="special-content">
+                        <span class="med pri">SPECIAL CAKE</span>
+                        <h2>Happy Cream Day!</h2>
+                        <p>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
+                            quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut
+                            sed est sit in tortor. Blandit consequat quisque vitae ornare diam netus tellus.</p>
+                    </div>
+                    <div class="special-btn">
+                        <buttom type="submit" class="btn btn-lg btn-pr">Explore now</buttom>
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,7 +182,7 @@
             <div class="title row">
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <h3>Recently Update</h3>
+                    <h3>For This </h3>
                     <div class="line"></div>
                     <p>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
                         quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor.</p>
@@ -198,7 +219,6 @@
                         consequat quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in...</p>
                 </div>
             </div>
-            <button type="submit" class="btn btn-lg btn-pr">See More</button>
         </div>
         <!--SIGN UP FOR EMAIL-->
         <div class="container signup row">
@@ -284,5 +304,25 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="library/jquery/jquery3.6.1.js"></script>
+    <script type="text/javascript" src="library/owlcarousel/dist/owl.carousel.js"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
 </body>
 </html>

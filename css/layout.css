@@ -248,7 +248,13 @@ label {
 .cart-right{
     margin-left:15px;
 }
-
+.cart-cake img{
+    opacity:1;
+    transition: 0.5s all;
+}
+.cart-cake img:hover{
+    opacity:0.5;
+}
 /*SIDEBAR*/
 .welcome h5{
     margin-top:20px;
