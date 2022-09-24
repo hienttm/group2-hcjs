@@ -52,7 +52,7 @@
     margin-bottom:10px;
     width:230px;
 }
-.trend-content h3{Season
+.trend-content h4{
     margin-bottom:30px;
 }
 .trend-first{
@@ -65,7 +65,7 @@
 .trend-title{
     position:absolute;
     left:30px;
-    bottom:380px;
+    bottom:300px;
 }
 .trend-img1 img:hover{
     transform: scale(110%);
@@ -90,35 +90,25 @@
     width:530px;
     margin: 10px auto 20px auto;
 }
+
 /*SPECIAL CAKE*/
 .special-cake{
-    margin-top:120px;
-}
-.special-cake .col-7{
-    margin-right:15px;
-}
-.special-cake .col-5{
-    margin-left:15px;
-    margin-top:auto;
-    margin-bottom:auto;
+    background-color:#FFA99650;
+    height:450px;
+    margin:0px auto;
+    display:flex;
 }
 .special-content{
-    margin-bottom:40px;
-    text-align:center;
+    background-color:#FFf;
+    text-align: center;
+    padding-top:184px;
 }
-.special-content h2{
-    margin-top:10px;
+.special-content h4{
+    margin-top:5px;
     margin-bottom:20px;
 }
-.update .item {
-    padding: 10px;
-}
-.update h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.update span {
-    text-align: justify;
+.special-content p{
+    margin-bottom:40px;
 }
 
 /*FOR THIS SEASON*/
@@ -143,7 +133,7 @@
 .signup .col-5{
     padding-left:60px;
     padding-right:60px;
-    padding-top:160px;
+    padding-top:90px;
 }
 .signup .col-5 p{
     margin-top:20px;
