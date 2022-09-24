@@ -5,8 +5,9 @@
     margin-top:140px;
     margin-bottom:140px;
 }
-.dear-info span{
-    margin-right:20px;
+.dear-info td{
+    padding-right:20px;
+    color: #FFA996;
 }
 .dear-glad h3{
     margin-bottom:30px;
