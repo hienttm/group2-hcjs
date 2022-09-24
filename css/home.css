@@ -110,6 +110,16 @@
     margin-top:10px;
     margin-bottom:20px;
 }
+.update .item {
+    padding: 10px;
+}
+.update h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.update span {
+    text-align: justify;
+}
 
 /*FOR THIS SEASON*/
 .for-season{
