@@ -57,10 +57,3 @@ p.recap{
     margin-bottom:40px;
     text-align:center;
 }
-.cart-cake img{
-    opacity:1;
-    transition: 0.5s all;
-}
-.cart-cake img:hover{
-    opacity:0.5;
-}
