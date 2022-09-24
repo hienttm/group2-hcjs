@@ -118,6 +118,8 @@ input{
     border-top:none;
     background:none;
     width:100%;
+    font-size:16px;
+    outline:none;
 }
 /*message input*/
 textarea{
