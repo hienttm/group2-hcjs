@@ -65,7 +65,7 @@
 .trend-title{
     position:absolute;
     left:30px;
-    bottom:380px;
+    bottom:300px;
 }
 .trend-img1 img:hover{
     transform: scale(110%);
@@ -136,19 +136,21 @@
 }
 .signup .col-5{
     background-color:#FFA99650;
+    background-size: cover;
 }
 .signup .col-5 button{
     width:100%
 }
-.signup .col-5{
-    padding-left:60px;
-    padding-right:60px;
-    padding-top:160px;
+.signup-form{
+    margin: 120px 60px;
 }
-.signup .col-5 p{
-    margin-top:20px;
-    margin-bottom:40px;
+.signup-form button {
+    margin-bottom: 0px!important;
 }
+.signup img {
+    height: 100%;
+}
+
 /*FOLLOW US*/
 .follow{
     background-color:#FFA99630;
