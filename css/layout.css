@@ -22,10 +22,12 @@ h1{
 h2{
     font-size: 48px;
     font-weight:900;
+    color: #2B4F60;
 }
 h3{
     font-size: 38px;
     font-weight:900;
+    color: #2B4F60;
 }
 h4{
     font-size: 32px;
@@ -56,6 +58,7 @@ h6{
 .pri{
     color: #FFA996;
 }
+
 ul li{
     list-style:none;
 }
@@ -63,6 +66,7 @@ a{
     color:#333;
     text-decoration:none;
 }
+
 
 .flex{
     display:flex;
