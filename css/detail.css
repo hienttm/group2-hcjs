@@ -1,5 +1,5 @@
 .recipe-detail{
-    margin-top:60px;
+    margin-top:40px;
 }
 .recipe-content .col-8{
     margin-right:15px;
@@ -13,7 +13,7 @@
 }
 /*RECIPE PATH*/
 .recipe-path{
-    margin-bottom:60px;
+    margin-bottom:40px;
 }
 .recipe-path li{
     margin-right:20px;
@@ -29,9 +29,6 @@
 .recipe-tt-right{
     width:20%;
     margin: auto;
-}
-.recipe-tt-right td {
-    padding-right: 20px;
 }
 .recipe-tt-left p{
     margin-bottom:10px;
@@ -87,8 +84,11 @@
 .ing-img{
     width:62.5%;
 }
-.ing-n1{
-    margin-top:30px;
+.ing-img{
+    height:100%;
+}
+.ing-top{
+    margin-bottom:30px;
 }
 .ing-n2{
     margin-top:30px;

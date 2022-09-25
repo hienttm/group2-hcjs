@@ -215,7 +215,6 @@ label {
 }
 
 /*header*/
-
 .header{
     box-shadow:0px 4px 10px 0px rgba(0,0,0,0.05);
     background-color:#fff;
@@ -281,7 +280,7 @@ label {
     margin-bottom:5px;
 }
 .similar{
-    margin-bottom:60px;
+    margin-bottom:40px;
 }
 .similar .line{
     margin-top:10px;
@@ -290,7 +289,7 @@ label {
 .signup button{
     width:100%;
     margin-top:30px;
-    margin-bottom:60px;
+    margin-bottom:40px;
 }
 .signup p{
     margin-top:10px;
@@ -308,14 +307,14 @@ label {
     color:#fff;
 }
 .sg-topic p.sma{
-    margin-top:10px;
+    margin-top:5px;
     margin-bottom:5px;
 }
 .sg-topic{
     margin-bottom:30px;
 }
 .suggest-topic{
-    margin-top:60px;
+    margin-top:40px;
 }
 /*banner*/
 .banner{
