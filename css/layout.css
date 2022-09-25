@@ -67,6 +67,9 @@ a{
     color:#333;
     text-decoration:none;
 }
+a:hover {
+    color: #999999;
+}
 
 
 .flex{
