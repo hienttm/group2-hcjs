@@ -1,7 +1,7 @@
-.related-result h3{
+.related-result h4{
     margin-bottom:30px;
 }
-.top-results h3{
+.top-results h4{
     margin-bottom:30px;
 }
 /*BANNER*/
@@ -23,7 +23,7 @@
     display:flex;
 }
 .search input{
-    font-size:26px;
+    font-size:20px;
 }
 
 /*TOP-RESULT*/
