@@ -382,3 +382,14 @@ label {
 .search input{
     font-size:18px;
 }
+/*SCALE PIC*/
+.list-box{
+    /*mask*/
+    overflow: hidden;
+}
+.list-box img{
+    transition: 0.5s all;
+}
+.list-box img:hover{
+    transform: scale(110%);
+}
