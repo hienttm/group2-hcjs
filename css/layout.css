@@ -22,12 +22,10 @@ h1{
 h2{
     font-size: 48px;
     font-weight:900;
-    color: #2B4F60;
 }
 h3{
     font-size: 38px;
     font-weight:900;
-    color: #2B4F60;
 }
 h4{
     font-size: 32px;
@@ -57,6 +55,9 @@ h6{
 }
 .pri{
     color: #FFA996;
+}
+.sec{
+    color:#2B4F60;
 }
 
 ul li{
@@ -118,7 +119,7 @@ input{
     border-top:none;
     background:none;
     width:100%;
-    font-size:16px;
+    font-size:14px;
     outline:none;
 }
 /*message input*/
@@ -162,7 +163,7 @@ label {
 }
 .brief img{
     margin-bottom:20px;
-    width:393px;
+    width:310px;
 }
 .explore{
     margin-left:30px;
@@ -346,7 +347,7 @@ label {
     margin-top:140px;
     margin-bottom:140px;
 }
-.input-content h4{
+.input-content h5{
     margin-top:5px;
     margin-bottom:20px;
 }

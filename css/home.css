@@ -80,6 +80,9 @@
 }
 
 /*RECENTLY UPDATE*/
+.recently-update{
+    margin-bottom:170px;
+}
 .title{
     margin-bottom:40px;
 }
@@ -94,14 +97,15 @@
 /*SPECIAL CAKE*/
 .special-cake{
     background-color:#FFA99650;
+    align-items:center;
     height:450px;
-    margin:0px auto;
+    margin: 0px auto;
     display:flex;
 }
 .special-content{
     background-color:#FFf;
     text-align: center;
-    padding-top:184px;
+    padding:150px 15px;
 }
 .special-content h4{
     margin-top:5px;
@@ -113,7 +117,7 @@
 
 /*FOR THIS SEASON*/
 .for-season{
-    margin-top:120px;
+    margin-top:170px;
     margin-bottom:120px;
 }
 .season-cart{
