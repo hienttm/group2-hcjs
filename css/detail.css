@@ -59,6 +59,10 @@
 .recipe-intro p{
     margin-bottom:16px;
 }
+.recipe-intro a {
+    text-decoration: underline;
+    color: #000080;
+}
 .recipe-intro img{
     margin-top:24px;
     margin-bottom:40px;
