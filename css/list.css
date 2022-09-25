@@ -27,7 +27,7 @@
     left:20px;
     bottom:20px;
 }
-.list-name h4{
+.list-name h5{
     color:#fff;
 }
 .list-box{
@@ -36,11 +36,10 @@
     overflow: hidden;
 }
 .list-box img{
-    height:100%;
     transition: 0.5s all;
 }
-.two-box img{
-    height:302px;
+.first-box{
+    height:100%;
 }
 .recipe-list-box img:hover{
     transform: scale(110%);

@@ -1,0 +1,32 @@
+/*FIND QUESTION*/
+.fqa{
+    margin-top:40px;
+    margin-bottom:120px;
+}
+h5{
+    text-align:center;
+}
+ul{
+    display:flex;
+    justify-content:center;
+}
+ul li{
+    margin:15px;
+}
+ul li a{
+    padding:20px 50px;
+    display:inline-block;
+    background-color:#BDC7C9;
+}
+/*CONTACT AND ASK A QUESTION*/
+.input-form{
+    padding:60px 130px;
+    margin:0px;
+    background-color:#FFEEEA;
+}
+.contact h5 {
+    margin-bottom: 40px;
+}
+.btn-center{
+    margin-top: 60px;
+}

@@ -156,6 +156,17 @@ label {
 .btn-lg{
     padding:10px 50px;
 }
+.btn-center{
+    position:relative;
+}
+.btn-center button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 /*footer*/
 .footer{
     background-color:#FFA99695;
@@ -180,7 +191,7 @@ label {
     margin-top:20px;
 }
 .help-top{
-    margin-bottom:63px;
+    margin-bottom:55px;
 }
 .footer .line{
     background-color:#FFF9F5;
@@ -326,13 +337,13 @@ label {
 }
 .banner h1{
     text-align:center;
-    padding-top:154px;
+    padding-top:135px;
     margin-bottom:10px;
     color:#fff;
 }
 .banner h5{
     text-align:center;
-    padding-bottom:154px;
+    padding-bottom:135px;
     color:#fff;
 }
 
@@ -354,5 +365,20 @@ label {
     margin-bottom:20px;
 }
 .input-content p{
-    margin-bottom:136px;
+    margin-bottom:150px;
+}
+.contact-inner .input-form .btn-center{
+    margin-top:60px;
+}
+/*SEARCH BAR*/
+.search-sec{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.search{
+    width:100%;
+    display:flex;
+}
+.search input{
+    font-size:18px;
 }

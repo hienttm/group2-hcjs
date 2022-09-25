@@ -13,18 +13,6 @@
     padding:0px;
     margin:0px;
 }
-/*SEARCH BAR*/
-.search-sec{
-    margin-top:60px;
-    margin-bottom:60px;
-}
-.search{
-    width:100%;
-    display:flex;
-}
-.search input{
-    font-size:20px;
-}
 
 /*TOP-RESULT*/
 .top-results{
@@ -33,6 +21,8 @@
 
 
 /*RELATED RESULTS*/
-.related-result{
-    margin-bottom:100px;
+
+.btn-center{
+    padding-top:60px;
+    padding-bottom:120px;
 }
