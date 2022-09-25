@@ -133,6 +133,7 @@ textarea{
     border-right:none;
     border-bottom:1px solid #999;
     background:none;
+    outline:none;
 }
 label {
     color: #666;
