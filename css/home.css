@@ -95,17 +95,17 @@
 }
 
 /*SPECIAL CAKE*/
+.special-content{
+    background-color:#FFf;
+    text-align: center;
+    padding:150px 15px;
+}
 .special-cake{
     background-color:#FFA99650;
     align-items:center;
     height:450px;
     margin: 0px auto;
     display:flex;
-}
-.special-content{
-    background-color:#FFf;
-    text-align: center;
-    padding:150px 15px;
 }
 .special-content h4{
     margin-top:5px;
