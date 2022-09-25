@@ -1,7 +1,7 @@
 /*FIND QUESTION*/
 .fqa{
-    margin-top:40px;
-    margin-bottom:120px;
+    margin-top:60px;
+    margin-bottom:100px;
 }
 h5{
     text-align:center;
@@ -14,9 +14,14 @@ ul li{
     margin:15px;
 }
 ul li a{
-    padding:20px 50px;
+    padding:15px 50px;
     display:inline-block;
     background-color:#BDC7C9;
+    border-radius: 5px;
+}
+ul li a:hover{
+    color:#333;
+    background-color:#FFA99650;
 }
 /*CONTACT AND ASK A QUESTION*/
 .input-form{
