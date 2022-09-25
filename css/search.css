@@ -4,22 +4,14 @@
 .top-results h4{
     margin-bottom:30px;
 }
-/*BANNER*/
-.banner-search{
-    padding-top:178px;
-    padding-bottom:178px;
-}
-.banner-search h1{
-    padding:0px;
-    margin:0px;
-}
-
 /*TOP-RESULT*/
 .top-results{
     margin-bottom:60px;
 }
-
-
+/*SEARCH*/
+.banner h1{
+    padding-bottom:135px;
+}
 /*RELATED RESULTS*/
 
 .btn-center{
