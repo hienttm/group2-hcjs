@@ -153,6 +153,17 @@ label {
 .btn-lg{
     padding:10px 50px;
 }
+.btn-center{
+    position:relative;
+}
+.btn-center button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 /*footer*/
 .footer{
     background-color:#FFA99695;
@@ -352,4 +363,16 @@ label {
 }
 .input-content p{
     margin-bottom:136px;
+}
+/*SEARCH BAR*/
+.search-sec{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.search{
+    width:100%;
+    display:flex;
+}
+.search input{
+    font-size:18px;
 }

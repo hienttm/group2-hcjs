@@ -168,17 +168,6 @@
     padding-top: 100px;
     padding-bottom:120px;
 }
-.btn-center{
-    position:relative;
-    padding-top: 100px;
-    padding-bottom:120px;
-}
-.btn-center button{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
+
 
 
