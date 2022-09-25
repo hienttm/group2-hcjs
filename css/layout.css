@@ -37,10 +37,10 @@ h5{
 }
 h6{
     font-size:20px;
-    font-weight:700;
+    font-weight:900;
 }
 .med{
-    font-size:18px;
+    font-size:16px;
     font-weight:700;
 }
 .sma{
@@ -266,16 +266,16 @@ label {
     opacity:0.5;
 }
 /*SIDEBAR*/
-.welcome h5{
+.welcome h6{
     margin-top:20px;
     margin-bottom:10px;
 }
-.similar h5{
-    margin-top:60px;
-    margin-bottom:20px;
+.similar h6{
+    margin-top:30px;
+    margin-bottom:10px;
 }
 .simi-img{
-    margin-right:30px;
+    margin-right:10px;
 }
 .simi-content p.med{
     margin-bottom:5px;
@@ -293,8 +293,8 @@ label {
     margin-bottom:60px;
 }
 .signup p{
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 .special-cart{
     position:relative;
