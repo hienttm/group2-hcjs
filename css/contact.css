@@ -60,14 +60,16 @@ h5{
 /*COLLAPSE CONTENT*/
 .collapsible {
     cursor: pointer;
-    padding: 18px;
+    padding: 0 18px;
 }
 .collapsible:after {
     content: '\002B';
+    font-size: 24px;
     margin-left: 5px;
 }
 .active:after {
     content: "\2212";
+    font-size: 24px;
 }
 .collapse-content {
     padding: 0 18px;
