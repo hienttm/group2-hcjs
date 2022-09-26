@@ -13,6 +13,12 @@ body {
     font-family: 'Overlock', sans-serif;
 }
 
+h1 {
+    font-family: 'Caveat', cursive;
+    text-shadow: 10px -5px #fde6e6;
+    color: #FFA996;
+}
+
 p {
     text-align: justify;
 }

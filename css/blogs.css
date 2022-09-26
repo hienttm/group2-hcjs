@@ -1,0 +1,15 @@
+.header .row div {
+    margin: auto;
+    padding-top: 50px;
+}
+.left-header i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+.right-header i {
+    font-size: 24px;
+}
+
+.nav {
+    border-top: 1px solid #FFA996;
+}
