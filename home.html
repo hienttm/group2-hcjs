@@ -283,9 +283,9 @@
                     <h4>Happy Cream Day!</h4>
                     <p>Celebrate a special occasion by baking one of our stunning cakes. From towering funfetti
                         sponges to decadent chocolate bakes, we've got plenty of party inspiration.</p>
-                    <buttom type="submit" class="btn btn-lg btn-pr">
+                    <button type="button" class="btn btn-lg btn-pr">
                         <a href="https://fiveseasoncake.herokuapp.com/recipelist.html">Explore now</a>
-                    </buttom>
+                    </button>
                 </div>
             </div>
         </div>
@@ -359,9 +359,10 @@
                 <h5>Sign Up For Email</h5>
                 <p>Enter your email address to receive new posts in your inbox, as well as seasonal newsletters with
                     extra goodies!</p>
-                <input type="email" placeholder="Email address">
-                <button type="submit" onclick="alert('Thanks for signing up!!\n' +
-                         'We will send you email about our updates.')" class="btn btn-lg btn-sc">Sign up</button>
+                <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+                    <input type="email" name="email" placeholder="Email address">
+                    <button type="submit" class="btn btn-lg btn-sc">Sign up</button>
+                </form>
             </div>
         </div>
         <!--FOLLOW-->
@@ -429,9 +430,10 @@
                 </div>
                 <div class="newsletter col-4">
                     <p class="med">Sign up for newsletter</p>
-                    <input type="text" placeholder="Email address">
-                    <button type="submit" onclick="alert('Thanks for signing up!!\n' +
-                    'We will send you email about our updates.')" class="btn btn-sm btn-sc">Submit</button>
+                    <form name="myFormBottom" action="#" onsubmit="return validateFormBottom()" method="post">
+                        <input type="email" name="emailBottom" placeholder="Email address">
+                        <button type="submit" class="btn btn-sm btn-sc">Submit</button>
+                    </form>
                 </div>
             </div>
             <div class="line"></div>
@@ -440,6 +442,7 @@
             </div>
         </div>
     </footer>
+
     <script type="text/javascript" src="library/jquery/jquery3.6.1.js"></script>
     <script type="text/javascript" src="library/owlcarousel/dist/owl.carousel.js"></script>
     <script type="text/javascript">
@@ -457,5 +460,6 @@
             }
         })
     </script>
+    <script type="text/javascript" src="js/signup.js"></script>
 </body>
 </html>
