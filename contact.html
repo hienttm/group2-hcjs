@@ -28,7 +28,7 @@
                 <img src="img/logo.png"/>
             </div>
             <div class="top-page-right">
-                <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+                <a href="https://fiveseasoncake.herokuapp.com/search.html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
             </div>
         </div>
         <div class="line"></div>
@@ -254,9 +254,10 @@
                 </div>
                 <div class="newsletter col-4">
                     <p class="med">Sign up for newsletter</p>
-                    <input type="text" placeholder="Email address">
-                    <button type="submit" onclick="alert('Thanks for signing up!!\n' +
-                    'We will send you email about our updates.')" class="btn btn-sm btn-sc">Submit</button>
+                    <form name="myFormBottom" action="#" onsubmit="return validateFormBottom()" method="post">
+                        <input type="email" name="emailBottom" placeholder="Email address">
+                        <button type="submit" class="btn btn-sm btn-sc">Submit</button>
+                    </form>
                 </div>
             </div>
             <div class="line"></div>
@@ -265,5 +266,7 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="js/signup.js"></script>
 </body>
 </html>

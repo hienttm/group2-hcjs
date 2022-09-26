@@ -28,7 +28,7 @@
                 <img src="img/logo.png"/>
             </div>
             <div class="top-page-right">
-                <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+                <a href="https://fiveseasoncake.herokuapp.com/search.html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
             </div>
         </div>
         <div class="line"></div>
@@ -168,8 +168,8 @@
                     <div class="col-5 input-content">
                         <span class="pri med">Contact and Q&A</span>
                         <h5>I Would Love To Hear From You</h5>
-                        <p>Enter your information and we will contact to you as soon as impossible. Please usually check
-                            your phone and email.</p>
+                        <p>Enter your information and we will contact to you as soon as impossible. Please check
+                            your phone and email for updates.</p>
                         <span class="med">Thefiveseasonscake@gmail.com</span>
                     </div>
                 </div>
@@ -214,9 +214,10 @@
                 </div>
                 <div class="newsletter col-4">
                     <p class="med">Sign up for newsletter</p>
-                    <input type="text" placeholder="Email address">
-                    <button type="submit" onclick="alert('Thanks for signing up!!\n' +
-                    'We will send you email about our updates.')" class="btn btn-sm btn-sc">Submit</button>
+                    <form name="myFormBottom" action="#" onsubmit="return validateFormBottom()" method="post">
+                        <input type="email" name="emailBottom" placeholder="Email address">
+                        <button type="submit" class="btn btn-sm btn-sc">Submit</button>
+                    </form>
                 </div>
             </div>
             <div class="line"></div>
@@ -225,5 +226,7 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="js/signup.js"></script>
 </body>
 </html>
