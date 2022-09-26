@@ -1,10 +1,16 @@
+.title-qa{
+    text-align:center;
+}
+.title-qa h5{
+    margin-top:10px;
+
+}
+
+
 /*FIND QUESTION*/
 .fqa{
     margin-top:60px;
     margin-bottom:80px;
-}
-h5{
-    text-align:center;
 }
 .fqa ul{
     display:flex;
@@ -24,54 +30,4 @@ h5{
     background-color:#FFA99650;
 }
 /*CONTACT AND ASK A QUESTION*/
-.input-form{
-    padding:60px 130px;
-    margin:0px;
-    background-color:#FFEEEA;
-}
-.contact h5 {
-    margin-bottom: 40px;
-}
-.btn-center{
-    margin-top: 60px;
-}
-/*SOME Q&A*/
-.answer{
-    margin-top:80px;
-    margin-bottom:100px;
-}
-.ques{
-    margin-right:auto;
-}
-.qa-title{
-    margin-top:5px;
-    margin-bottom:10px;
-}
 
-.all-qa .line{
-    margin-top:30px;
-    margin-bottom:60px
-}
-.ques h6{
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-/*COLLAPSE CONTENT*/
-.collapsible {
-    cursor: pointer;
-    padding: 18px;
-}
-.collapsible:after {
-    content: '\002B';
-    margin-left: 5px;
-}
-.active:after {
-    content: "\2212";
-}
-.collapse-content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}

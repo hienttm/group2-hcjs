@@ -388,7 +388,7 @@ button:hover {
 }
 .contact-inner{
     padding: 120px 130px 120px 130px;
-    background-color:#FFA99630;
+    background-color:#FFEEEA;
     margin-top:140px;
     margin-bottom:140px;
 }
@@ -396,8 +396,8 @@ button:hover {
     margin-top:5px;
     margin-bottom:20px;
 }
-.input-content p{
-    margin-bottom:150px;
+.contact-content{
+    margin-bottom:110px;
 }
 .contact-inner .input-form .btn-center{
     margin-top:60px;
@@ -424,4 +424,42 @@ button:hover {
 }
 .list-box img:hover{
     transform: scale(110%);
+}
+/*SOME Q&A*/
+.answer{
+    margin-top:80px;
+    margin-bottom:100px;
+}
+.ques{
+    margin-right:auto;
+}
+.qa-title{
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+.all-qa .line{
+    margin-top:30px;
+    margin-bottom:60px
+}
+.ques h6{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*COLLAPSE CONTENT AND SOME Q&A*/
+.collapsible {
+    cursor: pointer;
+}
+.collapsible:after {
+    content: '\002B';
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2212";
+}
+.collapse-content {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }

@@ -1,0 +1,12 @@
+.fqa h4{
+    text-align: center;
+    margin-top:20px;
+}
+
+/*PATH*/
+.recipe-path li{
+    margin-right:20px;
+}
+.recipe-path li:last-child{
+    margin-right:0px;
+}
