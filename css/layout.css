@@ -430,6 +430,7 @@ button:hover {
 }
 .collapsible:after {
     content: '\002B';
+    font-size:30px;
     margin-left: 5px;
 }
 .active:after {
