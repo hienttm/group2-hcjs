@@ -70,7 +70,9 @@ a{
 a:hover {
     color: #999999;
 }
-
+li.first a{
+    color:#333;
+}
 
 .flex{
     display:flex;
@@ -449,7 +451,25 @@ button:hover {
 .recipe-path li:last-child{
     margin-right:0px;
 }
+/*contact*/
+.input-form{
+    margin-right:30px;
+}
+.input-form input{
+    margin-bottom:40px;
+}
+.contact-inner{
+    padding: 100px 130px 100px 130px;
+    background-color:#FFEEEA;
 
-li.first a{
-    color:#333;
+}
+.input-content h5{
+    margin-top:5px;
+    margin-bottom:20px;
+}
+.contact-content{
+    margin-bottom:110px;
+}
+.contact-inner .input-form .btn-center{
+    margin-top:60px;
 }
