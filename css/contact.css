@@ -3,6 +3,7 @@
 }
 .title-qa h5{
     margin-top:10px;
+    margin-bottom:40px;
 
 }
 /*FIND QUESTION*/
@@ -35,10 +36,9 @@
     margin-bottom:40px;
 }
 .contact-inner{
-    padding: 120px 130px 120px 130px;
+    padding: 100px 130px 100px 130px;
     background-color:#FFEEEA;
-    margin-top:140px;
-    margin-bottom:140px;
+
 }
 .input-content h5{
     margin-top:5px;
