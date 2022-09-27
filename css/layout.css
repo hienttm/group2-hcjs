@@ -441,3 +441,10 @@ button:hover {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+/*PATH*/
+.recipe-path li{
+    margin-right:20px;
+}
+.recipe-path li:last-child{
+    margin-right:0px;
+}
