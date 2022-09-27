@@ -379,29 +379,7 @@ button:hover {
     color:#fff;
 }
 
-/*contact*/
-.input-form{
-    margin-right:30px;
-}
-.input-form input{
-    margin-bottom:40px;
-}
-.contact-inner{
-    padding: 120px 130px 120px 130px;
-    background-color:#FFEEEA;
-    margin-top:140px;
-    margin-bottom:140px;
-}
-.input-content h5{
-    margin-top:5px;
-    margin-bottom:20px;
-}
-.contact-content{
-    margin-bottom:110px;
-}
-.contact-inner .input-form .btn-center{
-    margin-top:60px;
-}
+
 /*SEARCH BAR*/
 .search-sec{
     margin-top:60px;
