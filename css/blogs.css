@@ -12,9 +12,7 @@
 .nav-blog li a{
     color:#ccc;
 }
-li.first a{
-    color:#333;
-}
+
 
 
 /*BLOG CART*/
@@ -47,4 +45,7 @@ p.sort{
 }
 .ar-right{
     margin-left:15px;
+}
+.btn-center{
+    margin-top:60px;
 }
