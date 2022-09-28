@@ -107,6 +107,9 @@ li.first a{
 .col-9{
     width:75%;
 }
+.col-10{
+    width:83.3%;
+}
 .line{
     background-color:#FFA996;
     width:100%;
