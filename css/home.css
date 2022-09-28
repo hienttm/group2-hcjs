@@ -1,37 +1,9 @@
 
 /*Showcase*/
 .showcase{
-    background-image: url("../img/showcase.jpg");
+    background-image: url("../img/banner.jpg");
     background-size: cover;
-}
-.showcase .col-10{
-    padding-top:95px;
-    padding-bottom:95px;
-}
-.w-4{
-    width:40%;
-}
-.w-6{
-    width:60%;
-}
-.w-6 h3.pri{
-    margin-top:50px;
-    margin-left:30px;
-}
-.show-img1{
-    margin-right:15px;
-}
-.show-img2{
-    margin-left:15px;
-}
-.show-content{
-    margin-top:5px;
-}
-.show-content h3{
-    margin-bottom:20px;
-}
-.show-content p {
-    margin-bottom:70px;
+    height: 700px;
 }
 
 /*TOP TREND*/
