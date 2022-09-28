@@ -1,4 +1,4 @@
-// CHECK EMAIL INPUT
+//CHECK EMAIL INPUT
 function validateForm() {
     let x = document.forms["myForm"]["email"].value;
     if (x == "") {
@@ -18,7 +18,7 @@ function validateFormBottom() {
     }
 }
 
-// COLLAPSE-EXPAND CONTENT
+//COLLAPSE-EXPAND CONTENT
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
