@@ -1,7 +1,37 @@
 
 /*Showcase*/
 .showcase-left{
-
+    background-image: url("../img/showcase.jpg");
+    background-size: cover;
+}
+.show-img{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.showcase-right{
+    background-color: #FFEEEA90;
+}
+.showcase-title{
+    margin-top:75px;
+}
+.showcase-content{
+    margin-bottom:75px;
+}
+.showcase-content h3{
+    margin-top:5px;
+}
+.showcase-content .col-8 p{
+    margin-top:10px;
+    margin-bottom:40px;
+}
+.showcase-right h4{
+    margin-left:30px;
+}
+.show-img-sm1{
+    margin-right:15px;
+}
+.show-img-sm2{
+    margin-left:15px;
 }
 /*TOP TREND*/
 .top-trend img{

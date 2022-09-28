@@ -72,28 +72,38 @@
     <!--BLOG PAGE-->
     <section class="main section">
         <!--SHOWCASE-->
-        <div class="showcase">
+        <div class="showcase row">
             <div class="col-6 showcase-left row">
                 <div class="col-2"></div>
-                <div class="col-8">
-                    <img src="img/"/>
+                <div class="col-8 show-img">
+                    <!--<img src="img/showcase2.jpg"/>-->
                 </div>
                 <div class="col-2"></div>
             </div>
             <div class="col-6 showcase-right">
                 <div class="showcase-title">
-                    <h6>Make a cake</h6>
-                    <h4>To Combat Boredom!</h4>
+                    <h4 class="pri">Making A Cake</h4>
                 </div>
-                <div class="showcase-content">
-                    <p>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
-                        quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed
-                        est sit in tortor.</p>
+                <div class="showcase-content row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <h3>To Combat Boredom!</h3>
+                        <p>Tempus, tristique morbi scelerisque sed. Diam nec ut sed est sit in tortor. Blandit consequat
+                            quisque vitae ornare diam netus tellus. Tempus, tristique morbi scelerisque sed. Diam nec ut sed
+                            est sit in tortor.</p>
+                        <div class="row ">
+                            <div class="col-6 show-img-sm1">
+                                <img src="img/show1.jpg"/>
+                            </div>
+                            <div class="col-6 show-img-sm2">
+                                <img src="img/show2.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
                 </div>
             </div>
         </div>
-        <!--TEST-->
-
         <!--TOP TRENDING-->
         <div class="top-trend container row">
             <div class="col-3 trend-content">
@@ -356,21 +366,6 @@
             </div>
 
         </div>
-        <!--SIGN UP FOR EMAIL-->
-        <div class="container signup row">
-            <div class="col-7">
-                <a href="#"><img src="img/signup.jpg"/></a>
-            </div>
-            <div class="col-5">
-                <h5>Sign Up For Email</h5>
-                <p>Enter your email address to receive new posts in your inbox, as well as seasonal newsletters with
-                    extra goodies!</p>
-                <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
-                    <input type="email" name="email" placeholder="Email address">
-                    <button type="submit" class="btn btn-lg btn-sc">Sign up</button>
-                </form>
-            </div>
-        </div>
         <!--FOLLOW-->
         <div class="follow">
             <div class="container row">
@@ -395,6 +390,21 @@
                 <div class="list-box col-3 follow-right">
                     <a href="#"><img src="img/follow5.jpg"/></a>
                 </div>
+            </div>
+        </div>
+        <!--SIGN UP FOR EMAIL-->
+        <div class="container signup row">
+            <div class="col-7">
+                <a href="#"><img src="img/signup.jpg"/></a>
+            </div>
+            <div class="col-5">
+                <h5>Sign Up For Email</h5>
+                <p>Enter your email address to receive new posts in your inbox, as well as seasonal newsletters with
+                    extra goodies!</p>
+                <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+                    <input type="email" name="email" placeholder="Email address">
+                    <button type="submit" class="btn btn-lg btn-sc">Sign up</button>
+                </form>
             </div>
         </div>
     </section>

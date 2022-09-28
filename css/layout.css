@@ -284,10 +284,10 @@ button:hover {
     margin-right:0px;
 }
 .menu ul li a{
-    color:#ccc;
+    color:#333;
 }
 .menu ul li a:hover{
-    color:#333;
+    color:#ccc;
 }
 
 /*RECIPE CART*/
