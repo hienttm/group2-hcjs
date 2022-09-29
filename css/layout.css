@@ -225,7 +225,7 @@ button:hover {
     background-color:#fff;
 }
 .top-page-left ul li{
-    margin-top:28px;
+    margin-top:23px;
 }
 .tpl2{
     margin-left:20px;
@@ -237,7 +237,10 @@ button:hover {
     margin:0px auto;
 }
 .top-page-right{
-    margin-top:28px;
+    margin-top:23px;
+}
+.search-container button{
+    height:24px;
 }
 
 /*DROPDOWN*/
@@ -479,14 +482,21 @@ button:hover {
 
 /*SEARCH BOX*/
 .search-container input[type=text] {
-    padding: 6px;
-    border: 1px solid #999;
-    border-radius: 5px;
     width: 80%;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid #999;
+    border-top:none;
+    background:none;
+    font-size:16px;
 }
 .search-container button {
     background: #fff;
     border: none;
     cursor: pointer;
     float: right;
+}
+/*LOGO*/
+.logo{
+    width:300px;
 }
