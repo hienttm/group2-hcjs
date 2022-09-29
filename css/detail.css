@@ -108,7 +108,7 @@
 
 /*INSTRUCTION*/
 .instruction h5{
-    margin-bottom:40px;
+    margin-bottom:20px;
 }
 .ins-img{
     margin-top:24px;
@@ -135,7 +135,7 @@
 }
 .nutrition h5{
     margin-top:44px;
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 .nutri-info{
     margin-top:30px;
@@ -147,7 +147,7 @@
 
 /*QUESTION*/
 .Q1{
-    margin-top:30px;
+    margin-top:20px;
     margin-bottom:30px;
 }
 .Q1 p.med{
@@ -163,14 +163,85 @@
 }
 
 /*SUGGEST RECIPE*/
-
 .suggest h5{
     margin-top:60px;
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 .btn-center{
     padding-top: 60px;
     padding-bottom:120px;
+}
+.sign p{
+    margin-top:40px;
+    border-top:1px solid #FFA99685;
+    border-bottom:1px solid #FFA99685;
+    padding:10px;
+    text-align: center;
+}
+/*COMMENT*/
+.ava-img{
+    width:60px;
+    height:60px;
+}
+.ava-img img{
+    border-radius: 50%;
+}
+.ava-info{
+    margin-top:5px;
+    margin-left:10px;
+    margin-right:auto;
+}
+.auth{
+    margin-bottom:5px;
+    text-transform: uppercase;
+}
+.ava-info p.sma{
+    color:#999;
+}
+.cmt{
+    margin-top:15px;
+}
+.comment{
+    margin-top:60px;
+}
+.comment h5{
+    text-align: center;
+    margin-bottom:20px;
+}
+.comment .line{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.rep{
+    margin-top:22px;
+}
+/*LEAVE A CMT*/
+.btn-center{
+    padding-bottom:0px;
+}
+.leave-cmt{
+    margin-top:60px;
+}
+input{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.leave-cmt p{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.leave-cmt h5{
+    text-align: center;
+}
+.checkb{
+    margin:4px 10px 4px 0px;
+    width:16px;
+    height:16px;
+}
+.remember{
+    margin-top:10px;
+    padding-bottom:30px;
 }
 
 
