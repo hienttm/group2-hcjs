@@ -2,9 +2,180 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contact</title>
+    <title>Contact Us</title>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="library/fontawesome/css/all.css"/>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="css/layout.css"/>
+    <link rel="stylesheet" href="css/contact.css"/>
 </head>
 <body>
-
+    <!--TOP_PAGE-->
+    <header class="section top-page">
+    <div class="container row">
+        <div class="top-page-left">
+            <ul class="flex">
+                <li><a href="https://www.facebook.com/thefiveseasoncake"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+                <li class="tpl2"><a href="https://www.instagram.com/thefiveseasoncake"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                <li><a href="https://www.pinterest.com/thefiveseasoncake"><i class="fa-brands fa-pinterest fa-xl"></i></a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="img/logo.png"/>
+        </div>
+        <div class="top-page-right">
+            <div class="search-container">
+                <form>
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit" onclick="location.href='https://fiveseasoncake.herokuapp.com/serach.html';">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+</header>
+    <!--NAVIGATION-->
+    <nav class="section header">
+    <div class="container">
+        <div class="menu">
+            <ul class="flex">
+                <li class="med"><a href="https://fiveseasoncake.herokuapp.com/home.html">HOME</a></li>
+                <li class="med"><a href="https://fiveseasoncake.herokuapp.com/about.html">ABOUT US</a></li>
+                <li class="med dropdown">
+                    <a href="https://fiveseasoncake.herokuapp.com/recipelist.html" class="dropbtn">
+                        RECIPE LIST <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="https://fiveseasoncake.herokuapp.com/recipelist.html">CAKE & OCCASIONS</a>
+                        <a href="https://fiveseasoncake.herokuapp.com/recipelist.html">DESSERT & VEGAN</a>
+                        <a href="https://fiveseasoncake.herokuapp.com/recipelist.html">CAKE & SEASONS</a>
+                        <a href="https://fiveseasoncake.herokuapp.com/recipelist.html">CUPCAKE</a>
+                    </div>
+                </li>
+                <li class="med dropdown">
+                    <a href="https://fiveseasoncake.herokuapp.com/blog.html" class="dropbtn">
+                        BLOG <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="https://fiveseasoncake.herokuapp.com/blog.html">LIFESTYLE</a>
+                        <a href="https://fiveseasoncake.herokuapp.com/blog.html">BAKING TIPS</a>
+                        <a href="https://fiveseasoncake.herokuapp.com/blog.html">CAKE DIARY</a>
+                        <a href="https://fiveseasoncake.herokuapp.com/blog.html">INSPIRATION</a>
+                    </div>
+                </li>
+                <li class="med"><a href="https://fiveseasoncake.herokuapp.com/contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!--SHOWCASE-->
+    <div class="con-show">
+        <img src="img/contact.jpg"/>
+    </div>
+    <!--CONTACT-->
+    <div class="contact">
+        <h4>Contact Us</h4>
+        <div class="contact-inner row">
+            <div class="col-7 input-form">
+                <form onsubmit="return validateForm()">
+                    <input type="text" placeholder="Name"><br>
+                    <input type="email" placeholder="Email address (*)" required><br>
+                    <input type="text" placeholder="Subject"><br>
+                    <label>Message (*)</label>
+                    <textarea rows="6" required></textarea>
+                    <div class="btn-center">
+                        <button type="submit" class="btn btn-lg btn-pr">Sent it</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-5 input-content">
+                <p class="med pri">CONTACT AND Q&A</p>
+                <p class="contact-content">Enter your information and give we a question and I will reply to you as soon as impossible.</p>
+                <span class="med">Thefiveseasonscake@gmail.com</span>
+            </div>
+        </div>
+    </div>
+    <!--FOLLOW-->
+    <div class="follow">
+        <div class="container row">
+            <div class="col-3 follow-left">
+                <h5><a href="http://www.instagram.com/thefiveseasoncake">Follow Us On Instagram!</a></h5>
+                <div class="line"></div>
+                <div class="list-box">
+                    <a href="#"><img src="img/follow1.jpg"/></a>
+                </div>
+            </div>
+            <div class="col-3 follow-cen">
+                <div class="follow2 list-box">
+                    <a href="#"><img src="img/follow2.jpg"/></a>
+                </div>
+                <div class="list-box">
+                    <a href="#"><img src="img/follow3.jpg"/></a>
+                </div>
+            </div>
+            <div class="list-box col-3 follow-cen">
+                <a href="#"><img src="img/follow4.jpg"/></a>
+            </div>
+            <div class="list-box col-3 follow-right">
+                <a href="#"><img src="img/follow5.jpg"/></a>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="section footer">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="brief col-4">
+                    <img src="img/logo2.svg"/>
+                    <p>"Every person is unique, why shouldn’t their cake be?<br>
+                        CAKE LOVERS are here to bake your uniqueness!!"</p>
+                </div>
+                <div class="explore col-2">
+                    <p class="med">Explore</p>
+                    <ul>
+                        <li><a href="https://fiveseasoncake.herokuapp.com/home.html">Home</a></li>
+                        <li><a href="https://fiveseasoncake.herokuapp.com/about.html">About us</a></li>
+                        <li><a href="https://fiveseasoncake.herokuapp.com/recipelist.html">Recipe list</a></li>
+                        <li><a href="https://fiveseasoncake.herokuapp.com/blog.html">Blog</a></li>
+                        <li><a href="https://fiveseasoncake.herokuapp.com/contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="help col-2">
+                    <div class="help-top">
+                        <p class="med">Need help?</p>
+                        <ul>
+                            <li><a href="https://fiveseasoncake.herokuapp.com/contact.html">Q&A</a></li>
+                            <li><a href="https://fiveseasoncake.herokuapp.com/contact.html">FQAs</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-bottom">
+                        <p class="med">Follow us</p><br>
+                        <ul class="flex">
+                            <li><a href="https://www.facebook.com/thefiveseasoncake"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+                            <li class="tpl2"><a href="https://www.instagram.com/thefiveseasoncake"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                            <li><a href="https://www.pinterest.com/thefiveseasoncake"><i class="fa-brands fa-pinterest fa-xl"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="newsletter col-4">
+                    <p class="med">Sign up for newsletter</p>
+                    <form name="myFormBottom" action="#" onsubmit="return validateFormBottom()" method="post">
+                        <input type="email" name="emailBottom" placeholder="Email address">
+                        <button type="submit" class="btn btn-sm btn-sc">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="copyright">
+                <p>COPYRIGHT © 2022 · THE FIVE SEASON CAKE</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
