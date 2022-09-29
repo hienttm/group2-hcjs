@@ -265,7 +265,6 @@ button:hover {
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
 
 /*header*/

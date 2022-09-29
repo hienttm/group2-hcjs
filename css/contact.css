@@ -17,24 +17,21 @@
     margin-bottom:200px;
 }
 /*FOLLOW US*/
-.follow{
-    margin-top:120px;
+.follow-us{
+    margin-top:100px;
     margin-bottom:120px;
 }
-.follow2{
-    margin-bottom:30px;
+.img-cen{
+    margin-left:5px;
+    margin-right:5px;
 }
-.follow-cen{
-    margin-left:15px;
-    margin-right:15px;
+.img-left{
+    margin-right:5px;
 }
-.follow-right{
-    margin-left:15px;
+.img-right{
+    margin-left:5px;
 }
-.follow-left{
-    margin-right:15px;
-}
-.follow-left .line{
-    margin-bottom:30px;
+.follow-content .fl-ct{
     margin-top:5px;
+    margin-bottom:20px;
 }
