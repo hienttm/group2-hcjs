@@ -476,3 +476,17 @@ button:hover {
 .contact-inner .input-form .btn-center{
     margin-top:60px;
 }
+
+/*SEARCH BOX*/
+.search-container input[type=text] {
+    padding: 6px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 80%;
+}
+.search-container button {
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
