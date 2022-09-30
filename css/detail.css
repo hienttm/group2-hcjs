@@ -234,8 +234,8 @@
 .leave-cmt h5{
     text-align: center;
 }
-.checkb{
-    margin:4px 10px 4px 0px;
+.remember input{
+    margin:4px 10px 0px 0px;
     width:16px;
     height:16px;
 }
@@ -243,5 +243,4 @@
     margin-top:10px;
     padding-bottom:30px;
 }
-
 
