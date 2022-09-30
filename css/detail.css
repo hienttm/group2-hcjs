@@ -71,7 +71,7 @@
     padding-left: 25px;
 }
 .recipe-intro li {
-    list-style-type: disc;!important;
+    list-style-type: disc;
 }
 
 /*Ingredient*/
@@ -234,8 +234,8 @@
 .leave-cmt h5{
     text-align: center;
 }
-.remember input{
-    margin:4px 10px 0px 0px;
+.checkb{
+    margin:4px 10px 4px 0px;
     width:16px;
     height:16px;
 }
@@ -243,4 +243,3 @@
     margin-top:10px;
     padding-bottom:30px;
 }
-
